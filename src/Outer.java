@@ -28,7 +28,7 @@
  */
 // Внешний класс
 class Outer {
-    int outer_x = 100;
+    int outer_x = 200;
 
     void test() {
         Inner inner = new Inner();
