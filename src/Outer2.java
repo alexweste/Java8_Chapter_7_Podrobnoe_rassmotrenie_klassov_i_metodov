@@ -5,10 +5,10 @@
 переменная "y" объявлена как переменная экземпляра класса Inner.
 Поэтому она недоступна за пределами этого класса и не может
 использоваться в методе showy().
- */
+
 // Эта программа не подлежит компиляции
 // Внешний класс
-class Outer3 {
+class Outer2 {
     int outer_x = 100;
 
     void test() {
@@ -23,19 +23,20 @@ class Outer3 {
             System.out.println("вывод: outer_x = " + outer_x);
         }
     }
-    void showy() {
+    //void showy() {
         System.out.println(y); // ошибка, так как переменная "y" тут
                                 // недоступна
 
 
 
-    }
+   // }
 
 }
 
-class InnerClassDemo3 {
+class InnerClassDemo2 {
     public static void main(String[] args){
         Outer3 outer = new Outer3();
         outer.test();
     }
 }
+*/
